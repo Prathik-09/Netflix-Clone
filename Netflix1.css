@@ -1,0 +1,90 @@
+
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #111;
+            color: #fff;
+        }
+
+        header {
+            padding: 20px;
+            background-color: #111;
+            position: fixed;
+            width: 100%;
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header img {
+            width: 100px;
+            cursor: pointer;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+        }
+
+        nav a {
+            margin-right: 20px;
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .main-content {
+            padding-top: 80px;
+        }
+
+        .banner {
+            background: url('banner.jpg') center/cover no-repeat;
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            position: relative;
+            color: #fff;
+        }
+
+        .banner h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        .banner button {
+            padding: 10px 20px;
+            font-size: 1.5em;
+            background-color: #e50914;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        .movie-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .movie-card {
+            margin: 20px;
+            max-width: 300px;
+        }
+
+        .movie-card img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        footer {
+            padding: 20px;
+            text-align: center;
+        }
+        nav #h:hover{
+            color: #e50914;
+        }
